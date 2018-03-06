@@ -1,0 +1,27 @@
+{
+  "name": "forum",
+  "version": "1.0.0",
+  "description": "react app",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maddasahatter7/forum.git"
+  },
+  "author": "madison barnett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maddasahatter7/forum/issues"
+  },
+  "homepage": "https://github.com/maddasahatter7/forum#readme",
+  "dependencies": {
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
