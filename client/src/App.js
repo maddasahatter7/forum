@@ -1,17 +1,16 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import ThreadDisplay from './components/ThreadDisplay/components/ThreadDisplay';
+import Jumbo from './components/Jumbotron/Jumbotron';
 import './App.css';
-import Customers from './components/Customers/customers';
+import Users from './components/Users/users';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <Customers />
+      <div>
+        <Jumbo />
+        <ThreadDisplay />
+        <Users />
       </div>
     );
   }

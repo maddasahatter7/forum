@@ -1,0 +1,36 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 150%;
+    background: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.jumbotron {
+    padding: 4em;
+    color: #e6ac00;
+    text-shadow: 8px 8px 10px black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-stretch: extra-expanded;
+    background: url(./peralta.jpg) center;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-top: 0em;
+    border-color: -moz-linear-gradient(top, #555555, #111111);
+    
+    
+}
+h2 {
+color: indianred;
+/* font-weight: bo; */
+text-shadow: 4px 4px 6px black;
+}
+.btnOne {
+    color: teal;
+    background: black;
+}

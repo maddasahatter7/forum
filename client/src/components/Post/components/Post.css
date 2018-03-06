@@ -1,0 +1,21 @@
+.panel-post {
+    margin: 1em 15%;
+    background: rgba(0, 0, 0, 0.6);
+    color: red;
+    text-align: center;
+  }
+  .link {
+    font-size: 10px;
+    margin-bottom: 2px;
+    text-align: left;
+  }
+  /* .up {
+    text-align: right;
+  } */
+  
+  @media(max-width: 900px)  {
+    .post-editor {
+      margin: 1em;
+    }
+  }
+  

@@ -2,14 +2,14 @@ const express = require('express');
 
 const app = express();
 
-app.get('/api/customers', (req, res) => {
-    const customers = [
-        {id: 1, firstName: 'Jane', lastName: 'Doe'},
-        {id: 2, firstName: 'John', lastName: 'Deer'},
-        {id: 3, firstName: 'Jack', lastName: 'Dawson'},
+app.get('/api/users', (req, res) => {
+    const users = [
+        {id: 1, userName: 'MattSk8s23', mainPost: 'Kickflip Challenge'},
+        {id: 2, userName: 'EyesackCraw95', mainPost: 'Vert Challenge'},
+        {id: 3, userName: 'KyleBean666', mainPost: 'Rail Grind Challenge'},
     ];
 
-    res.json(customers);
+    res.json(users);
     
 });
 
